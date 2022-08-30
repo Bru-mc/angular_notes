@@ -2,25 +2,19 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
+
+## Choosing a angular functionality
+
+You can choose the angular functionality you want to see, to do that, follow those steps:
+1- first, look in ./src/app and open the funcionality folder name that you want
+2- go to component.ts file and copy what have in component selector option (you will see something like 'app-component-name')
+3- in ./src/app look for app.component.ts, open this file and paste between '</>' the component selector that you copy ( exemple '<app-component-name/>') 
+
+You can place as many components as you like to see.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
 ## Further help
 
