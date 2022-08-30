@@ -13,13 +13,13 @@ You can choose the angular functionality you want to see, to do that, follow tho
 
 Now we have the component that we want render in app.component.html: 
 ~~~html
-<app-component-name/>
+<app-component-name><app-component-name/>
 ~~~
 You can place as many components as you like to see.
 ~~~html
-<app-component-name/>
+<app-component-name><app-component-name/>
 <app-component-name2><app-component-name2/>
-<app-component-name3/>
+<app-component-name3><app-component-name3/>
 ~~~
 
 ## Development server
